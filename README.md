@@ -6,7 +6,7 @@ Using a Lisiparoi IR LED Module and a NoIR Raspberry Pi Camera, connect up your 
 <img src="/docs/blade-wiring_bb.png" alt="Wiring Diagram" width="350"><br />
 The GPIO for the LED should be on GPIO 2 and the LED needs a 5V power input. Beware that these LED modules can get quite hot during normal operation!
 
-Attach your NoIR Raspberry Pi camera module into the Lisipario as described here: 
+Attach your NoIR Raspberry Pi camera module into the Lisipario as described here: http://www.lisiparoi.com/how-to-use/ and then attach your NoIR Raspberry Pi camera to teh Pi as usual. 
 ## Software Install instructions
 1. Clone the repository
 2. cd into the repository directory
