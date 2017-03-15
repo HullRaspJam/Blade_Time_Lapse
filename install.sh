@@ -9,5 +9,3 @@ sudo chmod +x /home/pi/timelapse/time-lapse.py
 
 sudo systemctl daemon-reload
 sudo systemctl enable timelapse.service
-
-sudo reboot now
