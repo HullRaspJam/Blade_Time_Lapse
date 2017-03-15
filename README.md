@@ -1,4 +1,4 @@
-# Blade Time Lapse
+# Time Lapse
 This project contains the code for a Raspberry Pi time lapse camera. There are three main files included; the Python script for taking the photos, a System D service definition and an install Shell script to move everything into the right place and activate the service etc.
 
 ## Hardware Install Instructions
