@@ -8,8 +8,17 @@ The GPIO for the LED should be on GPIO 2 and the LED needs a 5V power input. Bew
 
 Attach your NoIR Raspberry Pi camera module into the Lisipario as described here: http://www.lisiparoi.com/how-to-use/ and then attach your NoIR Raspberry Pi camera to the Pi as usual. 
 ## Software Install instructions
-1. Clone the repository
-2. cd into the repository directory
-3. run ```sudo install.sh``` and follow the instructions to install the service
-4. run ```sudo shutdown now -hP```
+1. Enable your PiCamera:
+   1. ```sudo raspi-config```
+   1. Select ```5 Interfacing Options```
+   1. Select ```P1 Camera```
+   1. Select ```Yes```
+   1. Select ```OK```
+   1. Select ```Finish```
+   1. Select ```Yes``` to reboot now
+1. Move into your home directory ```cd ~```
+1. Clone the repository ```git clone https://github.com/HullRaspJam/Blade_Time_Lapse.git```
+1. cd into the repository directory
+1. run ```.\install.sh``` and follow the instructions to install the service
+1. run ```sudo shutdown now -hP```
 Your time lapse will start after 5 minutes from the next time you power on your Pi.
