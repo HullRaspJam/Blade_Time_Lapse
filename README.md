@@ -17,8 +17,8 @@ Attach your NoIR Raspberry Pi camera module into the Lisipario as described here
    1. Select ```Finish```
    1. Select ```Yes``` to reboot now
 1. Move into your home directory ```cd ~```
-1. Clone the repository ```git clone https://github.com/HullRaspJam/Blade_Time_Lapse.git```
-1. Move into the repository directory ```cd Blade_Time_Lapse/```
+1. Clone the repository ```git clone https://github.com/HullRaspJam/Time_Lapse.git```
+1. Move into the repository directory ```cd Time_Lapse/```
 1. Run ```./install.sh``` to create the required directories, copy the files into the correct place and enable teh service
 1. Run ```sudo shutdown now -hP```
 Your time lapse will start after 5 minutes from the next time you power on your Pi.
