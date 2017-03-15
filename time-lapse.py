@@ -10,7 +10,7 @@ led = LED(2)
 led.on()
 
 for i in range(10):
-    cam.capture('/home/pi/captures/image{0:07d}.jpg'.format(i))
+    cam.capture('/home/pi/timelapse/captures/image{0:07d}.jpg'.format(i))
     sleep(5)
 led.off()
 
